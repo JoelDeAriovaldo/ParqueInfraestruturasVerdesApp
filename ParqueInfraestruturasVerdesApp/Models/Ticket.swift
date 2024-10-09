@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct Ticket {
+    var id: Int
+    var name: String
+    var date: Date
+}

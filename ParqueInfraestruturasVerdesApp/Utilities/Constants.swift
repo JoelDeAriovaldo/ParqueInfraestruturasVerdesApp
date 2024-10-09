@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct Constants {
+    static let apiBaseUrl = "https://api.parqueinfraestruturasverdes.com"
+    static let registerEndpoint = "/register"
+    static let loginEndpoint = "/login"
+}
