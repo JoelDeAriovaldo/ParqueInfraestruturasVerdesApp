@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+struct Purchase {
+    var id: Int
+    var item: String
+    var amount: Double
+    var date: Date
+}
